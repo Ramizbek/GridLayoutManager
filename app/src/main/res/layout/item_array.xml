@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/item_back"
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_margin="0.2dp"
+        android:layout_marginTop="0.2dp"
+        android:layout_weight="1"
+        android:background="#AC5151"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="ContentDescription,UselessParent">
+
+        <ImageView
+            android:id="@+id/item_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_electronics" />
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_name"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</LinearLayout>
